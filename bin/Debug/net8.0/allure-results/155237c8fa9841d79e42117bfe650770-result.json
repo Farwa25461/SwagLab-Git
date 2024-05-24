@@ -1,0 +1,78 @@
+{
+  "uuid": "770ebf15-5585-4782-a3c9-929e022b0ede-tr-0-1001",
+  "historyId": "testframework.Tests.userlogin",
+  "fullName": "testframework.Tests.userlogin",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "TX-0337L-FR"
+    },
+    {
+      "name": "package",
+      "value": "testframework"
+    },
+    {
+      "name": "testMethod",
+      "value": "userlogin"
+    },
+    {
+      "name": "testClass",
+      "value": "Tests"
+    }
+  ],
+  "links": [],
+  "name": "userlogin",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "System.Reflection.TargetInvocationException : Exception has been thrown by the target of an invocation.\r\n  ----> OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#login_button_container > div > form > h3\"}\n  (Session info: chrome=124.0.6367.210); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception",
+    "trace": "   at System.Reflection.MethodBaseInvoker.InvokeWithManyArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)\r\n   at System.Reflection.MethodBase.Invoke(Object obj, Object[] parameters)\r\n   at NUnit.Allure.Core.Steps.AllureStepAspect.Around(String name, Object[] args, Func`2 target, MethodBase metadata, Type returnType)\r\n   at testframework.Tests.__a$_around_userlogin_100663330_w_0(Object[])\r\n   at testframework.Tests.userlogin()\r\n   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)\r\n   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)\r\n--NoSuchElementException\r\n   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)\r\n   at OpenQA.Selenium.By.<.ctor>b__11_0(ISearchContext context)\r\n   at OpenQA.Selenium.By.FindElement(ISearchContext context)\r\n   at OpenQA.Selenium.WebDriver.FindElement(By by)\r\n   at testframework.BasePage.assertion_text(By by, String expected) in C:\\Users\\Farwa\\source\\repos\\testframework\\BasePage\\BasePage.cs:line 68\r\n   at testframework.Login.LoginSwagLab(String username, String password) in C:\\Users\\Farwa\\source\\repos\\testframework\\Loginpage\\Login.cs:line 25\r\n   at testframework.Tests.__a$_around_userlogin_100663330_o() in C:\\Users\\Farwa\\source\\repos\\testframework\\ExecutionClass.cs:line 33\r\n   at testframework.Tests.__a$_around_userlogin_100663330_u(Object[])\r\n   at NUnit.Allure.Core.Steps.AllureStepAspect.WrapSyncVoid(Func`2 target, Object[] args, MethodBase metadata, String stepName, List`1 stepParameters)\r\n   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)\r\n   at System.Reflection.MethodBaseInvoker.InvokeWithManyArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "userlogin",
+      "status": "broken",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#login_button_container > div > form > h3\"}\n  (Session info: chrome=124.0.6367.210); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception",
+        "trace": "   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)\r\n   at OpenQA.Selenium.By.<.ctor>b__11_0(ISearchContext context)\r\n   at OpenQA.Selenium.By.FindElement(ISearchContext context)\r\n   at OpenQA.Selenium.WebDriver.FindElement(By by)\r\n   at testframework.BasePage.assertion_text(By by, String expected) in C:\\Users\\Farwa\\source\\repos\\testframework\\BasePage\\BasePage.cs:line 68\r\n   at testframework.Login.LoginSwagLab(String username, String password) in C:\\Users\\Farwa\\source\\repos\\testframework\\Loginpage\\Login.cs:line 25\r\n   at testframework.Tests.__a$_around_userlogin_100663330_o() in C:\\Users\\Farwa\\source\\repos\\testframework\\ExecutionClass.cs:line 33\r\n   at testframework.Tests.__a$_around_userlogin_100663330_u(Object[])\r\n   at NUnit.Allure.Core.Steps.AllureStepAspect.WrapSyncVoid(Func`2 target, Object[] args, MethodBase metadata, String stepName, List`1 stepParameters)"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "UsernameDetail",
+          "source": "7807057ba22e437fa83767f62017e25f-attachment",
+          "type": "image/png"
+        },
+        {
+          "name": "Passworddetail",
+          "source": "52d45e28b1f040f1aaca51e25a552b40-attachment",
+          "type": "image/png"
+        }
+      ],
+      "parameters": [],
+      "start": 1716472288745,
+      "stop": 1716472294959
+    }
+  ],
+  "attachments": [
+    {
+      "name": "Console Output",
+      "source": "81ba94fff5e349558a6ea83163184e68-attachment.txt",
+      "type": "text/plain"
+    }
+  ],
+  "parameters": [],
+  "start": 1716472285413,
+  "stop": 1716472295207
+}

@@ -1,0 +1,12 @@
+{
+  "uuid": "tc-0-1002",
+  "name": "testframework.Tests.userlogin2ndtime",
+  "children": [
+    "b7245d02-67e3-4cf4-92f9-fda27d8c6100-tr-0-1002"
+  ],
+  "befores": [],
+  "afters": [],
+  "links": [],
+  "start": 1716465939669,
+  "stop": 1716465950571
+}

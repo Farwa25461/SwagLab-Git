@@ -1,0 +1,90 @@
+{
+  "uuid": "a4730e48-6181-4d05-b7c7-65801b464181-tr-0-1001",
+  "historyId": "testframework.Tests.userlogin",
+  "fullName": "testframework.Tests.userlogin",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "TX-0337L-FR"
+    },
+    {
+      "name": "package",
+      "value": "testframework"
+    },
+    {
+      "name": "testMethod",
+      "value": "userlogin"
+    },
+    {
+      "name": "testClass",
+      "value": "Tests"
+    }
+  ],
+  "links": [],
+  "name": "userlogin",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "userlogin"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "userlogin",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "UsernameDetail",
+          "source": "8bd446a5f0e84e97bf21b2774e419414-attachment",
+          "type": "image/png"
+        },
+        {
+          "name": "Passworddetail",
+          "source": "9623cf30533e44ac84ce4c091b57a273-attachment",
+          "type": "image/png"
+        },
+        {
+          "name": "Firstname",
+          "source": "ea6db514912a482d92b65f7c8f7df846-attachment",
+          "type": "image/png"
+        },
+        {
+          "name": "lastname",
+          "source": "58de6c012f79499cb29c62b907650c6b-attachment",
+          "type": "image/png"
+        },
+        {
+          "name": "passcodedetail",
+          "source": "2244225569624b6e9ac5f302e3f5cda5-attachment",
+          "type": "image/png"
+        }
+      ],
+      "parameters": [],
+      "start": 1716465918977,
+      "stop": 1716465930901
+    }
+  ],
+  "attachments": [
+    {
+      "name": "Console Output",
+      "source": "685760a1a51f4845aab904fa5d3432c0-attachment.txt",
+      "type": "text/plain"
+    }
+  ],
+  "parameters": [],
+  "start": 1716465915758,
+  "stop": 1716465931197
+}

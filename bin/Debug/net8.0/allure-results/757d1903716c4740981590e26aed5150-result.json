@@ -1,0 +1,93 @@
+{
+  "uuid": "56533b22-4b0a-4d56-8c63-e7fa14b4068e-tr-0-1003",
+  "historyId": "testframework.Tests.Revers_order",
+  "fullName": "testframework.Tests.Revers_order",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "TX-0337L-FR"
+    },
+    {
+      "name": "package",
+      "value": "testframework"
+    },
+    {
+      "name": "testMethod",
+      "value": "Revers_order"
+    },
+    {
+      "name": "testClass",
+      "value": "Tests"
+    }
+  ],
+  "links": [],
+  "name": "Revers_order",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "System.Reflection.TargetInvocationException : Exception has been thrown by the target of an invocation.\r\n  ----> OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#checkout_summary_container > div > div.summary_info > div.cart_footer > a.cart_cancel_link.btn_secondary\"}\n  (Session info: chrome=124.0.6367.210); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception",
+    "trace": "   at System.Reflection.MethodBaseInvoker.InvokeWithManyArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)\r\n   at System.Reflection.MethodBase.Invoke(Object obj, Object[] parameters)\r\n   at NUnit.Allure.Core.Steps.AllureStepAspect.Around(String name, Object[] args, Func`2 target, MethodBase metadata, Type returnType)\r\n   at testframework.Tests.__a$_around_Revers_order_100663331_w_0(Object[])\r\n   at testframework.Tests.Revers_order()\r\n   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)\r\n   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)\r\n--NoSuchElementException\r\n   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)\r\n   at OpenQA.Selenium.By.<.ctor>b__11_0(ISearchContext context)\r\n   at OpenQA.Selenium.By.FindElement(ISearchContext context)\r\n   at OpenQA.Selenium.WebDriver.FindElement(By by)\r\n   at testframework.BasePage.click(By by) in C:\\Users\\Farwa\\source\\repos\\testframework\\BasePage\\BasePage.cs:line 38\r\n   at testframework.CheckoutInfo.cancel_button_user_info() in C:\\Users\\Farwa\\source\\repos\\testframework\\Checkoutinfo\\CheckoutInfo.cs:line 38\r\n   at testframework.Tests.__a$_around_Revers_order_100663331_o() in C:\\Users\\Farwa\\source\\repos\\testframework\\ExecutionClass.cs:line 58\r\n   at testframework.Tests.__a$_around_Revers_order_100663331_u(Object[])\r\n   at NUnit.Allure.Core.Steps.AllureStepAspect.WrapSyncVoid(Func`2 target, Object[] args, MethodBase metadata, String stepName, List`1 stepParameters)\r\n   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)\r\n   at System.Reflection.MethodBaseInvoker.InvokeWithManyArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Revers_order",
+      "status": "broken",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#checkout_summary_container > div > div.summary_info > div.cart_footer > a.cart_cancel_link.btn_secondary\"}\n  (Session info: chrome=124.0.6367.210); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception",
+        "trace": "   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)\r\n   at OpenQA.Selenium.By.<.ctor>b__11_0(ISearchContext context)\r\n   at OpenQA.Selenium.By.FindElement(ISearchContext context)\r\n   at OpenQA.Selenium.WebDriver.FindElement(By by)\r\n   at testframework.BasePage.click(By by) in C:\\Users\\Farwa\\source\\repos\\testframework\\BasePage\\BasePage.cs:line 38\r\n   at testframework.CheckoutInfo.cancel_button_user_info() in C:\\Users\\Farwa\\source\\repos\\testframework\\Checkoutinfo\\CheckoutInfo.cs:line 38\r\n   at testframework.Tests.__a$_around_Revers_order_100663331_o() in C:\\Users\\Farwa\\source\\repos\\testframework\\ExecutionClass.cs:line 58\r\n   at testframework.Tests.__a$_around_Revers_order_100663331_u(Object[])\r\n   at NUnit.Allure.Core.Steps.AllureStepAspect.WrapSyncVoid(Func`2 target, Object[] args, MethodBase metadata, String stepName, List`1 stepParameters)"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "UsernameDetail",
+          "source": "46356fa6306046559826ecf469f7251a-attachment",
+          "type": "image/png"
+        },
+        {
+          "name": "Passworddetail",
+          "source": "fff1456c9307430b8b63bc6876b197fa-attachment",
+          "type": "image/png"
+        },
+        {
+          "name": "Firstname",
+          "source": "df2f3fbcfe234d8b8902270b128a357f-attachment",
+          "type": "image/png"
+        },
+        {
+          "name": "lastname",
+          "source": "986ee9d2ff35418d9216c1110f52c4fd-attachment",
+          "type": "image/png"
+        },
+        {
+          "name": "passcodedetail",
+          "source": "5ead406f44514e3481410d10ebc53d49-attachment",
+          "type": "image/png"
+        }
+      ],
+      "parameters": [],
+      "start": 1716475652602,
+      "stop": 1716475657491
+    }
+  ],
+  "attachments": [
+    {
+      "name": "Console Output",
+      "source": "d7f7a33f500946929e0565a7e2e91621-attachment.txt",
+      "type": "text/plain"
+    }
+  ],
+  "parameters": [],
+  "start": 1716475648329,
+  "stop": 1716475657666
+}

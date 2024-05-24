@@ -1,0 +1,93 @@
+{
+  "uuid": "386e8681-2261-46d2-9417-bbad2dbd520d-tr-0-1003",
+  "historyId": "testframework.Tests.Reverse_order",
+  "fullName": "testframework.Tests.Reverse_order",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "TX-0337L-FR"
+    },
+    {
+      "name": "package",
+      "value": "testframework"
+    },
+    {
+      "name": "testMethod",
+      "value": "Reverse_order"
+    },
+    {
+      "name": "testClass",
+      "value": "Tests"
+    }
+  ],
+  "links": [],
+  "name": "Reverse_order",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "System.Reflection.TargetInvocationException : Exception has been thrown by the target of an invocation.\r\n  ----> OpenQA.Selenium.JavaScriptException : javascript error: {\"status\":32,\"value\":\"An invalid or illegal selector was specified\"}\n  (Session info: chrome=124.0.6367.210)",
+    "trace": "   at System.Reflection.MethodBaseInvoker.InvokeWithManyArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)\r\n   at System.Reflection.MethodBase.Invoke(Object obj, Object[] parameters)\r\n   at NUnit.Allure.Core.Steps.AllureStepAspect.Around(String name, Object[] args, Func`2 target, MethodBase metadata, Type returnType)\r\n   at testframework.Tests.__a$_around_Reverse_order_100663331_w_0(Object[])\r\n   at testframework.Tests.Reverse_order()\r\n   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)\r\n   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)\r\n--JavaScriptException\r\n   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)\r\n   at OpenQA.Selenium.By.<.ctor>b__11_0(ISearchContext context)\r\n   at OpenQA.Selenium.By.FindElement(ISearchContext context)\r\n   at OpenQA.Selenium.WebDriver.FindElement(By by)\r\n   at testframework.BasePage.click(By by) in C:\\Users\\Farwa\\source\\repos\\testframework\\BasePage\\BasePage.cs:line 38\r\n   at testframework.CheckoutInfo.cancel_button_user_info() in C:\\Users\\Farwa\\source\\repos\\testframework\\Checkoutinfo\\CheckoutInfo.cs:line 38\r\n   at testframework.Tests.__a$_around_Reverse_order_100663331_o() in C:\\Users\\Farwa\\source\\repos\\testframework\\ExecutionClass.cs:line 60\r\n   at testframework.Tests.__a$_around_Reverse_order_100663331_u(Object[])\r\n   at NUnit.Allure.Core.Steps.AllureStepAspect.WrapSyncVoid(Func`2 target, Object[] args, MethodBase metadata, String stepName, List`1 stepParameters)\r\n   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)\r\n   at System.Reflection.MethodBaseInvoker.InvokeWithManyArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Reverse_order",
+      "status": "broken",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "javascript error: {\"status\":32,\"value\":\"An invalid or illegal selector was specified\"}\n  (Session info: chrome=124.0.6367.210)",
+        "trace": "   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)\r\n   at OpenQA.Selenium.By.<.ctor>b__11_0(ISearchContext context)\r\n   at OpenQA.Selenium.By.FindElement(ISearchContext context)\r\n   at OpenQA.Selenium.WebDriver.FindElement(By by)\r\n   at testframework.BasePage.click(By by) in C:\\Users\\Farwa\\source\\repos\\testframework\\BasePage\\BasePage.cs:line 38\r\n   at testframework.CheckoutInfo.cancel_button_user_info() in C:\\Users\\Farwa\\source\\repos\\testframework\\Checkoutinfo\\CheckoutInfo.cs:line 38\r\n   at testframework.Tests.__a$_around_Reverse_order_100663331_o() in C:\\Users\\Farwa\\source\\repos\\testframework\\ExecutionClass.cs:line 60\r\n   at testframework.Tests.__a$_around_Reverse_order_100663331_u(Object[])\r\n   at NUnit.Allure.Core.Steps.AllureStepAspect.WrapSyncVoid(Func`2 target, Object[] args, MethodBase metadata, String stepName, List`1 stepParameters)"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "UsernameDetail",
+          "source": "efba1358b05440f79e75e2a1a874e716-attachment",
+          "type": "image/png"
+        },
+        {
+          "name": "Passworddetail",
+          "source": "1776f4cbab674f80868250190aef93de-attachment",
+          "type": "image/png"
+        },
+        {
+          "name": "Firstname",
+          "source": "9b8762f3ade74da28c7f2acb48e748ac-attachment",
+          "type": "image/png"
+        },
+        {
+          "name": "lastname",
+          "source": "03306b91313246c8934d53fa27149c07-attachment",
+          "type": "image/png"
+        },
+        {
+          "name": "passcodedetail",
+          "source": "46d7596571b045c5b6d5f71898777a15-attachment",
+          "type": "image/png"
+        }
+      ],
+      "parameters": [],
+      "start": 1716476433119,
+      "stop": 1716476441254
+    }
+  ],
+  "attachments": [
+    {
+      "name": "Console Output",
+      "source": "83f8a2c526524143957fdeb5064f8c98-attachment.txt",
+      "type": "text/plain"
+    }
+  ],
+  "parameters": [],
+  "start": 1716476429692,
+  "stop": 1716476441399
+}

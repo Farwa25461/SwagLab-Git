@@ -1,0 +1,75 @@
+{
+  "uuid": "009c69b3-5212-4bda-b62e-83c22834d308-tr-0-1002",
+  "historyId": "testframework.Tests.userlogin_locked",
+  "fullName": "testframework.Tests.userlogin_locked",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "TX-0337L-FR"
+    },
+    {
+      "name": "package",
+      "value": "testframework"
+    },
+    {
+      "name": "testMethod",
+      "value": "userlogin_locked"
+    },
+    {
+      "name": "testClass",
+      "value": "Tests"
+    }
+  ],
+  "links": [],
+  "name": "userlogin_locked",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "userlogin_locked"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "userlogin_locked",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "UsernameDetail",
+          "source": "389c84a27f31469f9eca7d5a4b100a42-attachment",
+          "type": "image/png"
+        },
+        {
+          "name": "Passworddetail",
+          "source": "9fc7433b07e644f4a104c2d39348dc01-attachment",
+          "type": "image/png"
+        }
+      ],
+      "parameters": [],
+      "start": 1716472385670,
+      "stop": 1716472387630
+    }
+  ],
+  "attachments": [
+    {
+      "name": "Console Output",
+      "source": "1661c38901994f9e82dce7566b4e4388-attachment.txt",
+      "type": "text/plain"
+    }
+  ],
+  "parameters": [],
+  "start": 1716472382674,
+  "stop": 1716472387778
+}

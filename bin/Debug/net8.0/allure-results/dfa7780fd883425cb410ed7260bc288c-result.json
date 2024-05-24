@@ -1,0 +1,78 @@
+{
+  "uuid": "1532e711-f1e8-4781-a83c-58bf463aaefc-tr-0-1002",
+  "historyId": "testframework.Tests.userlogin_locked",
+  "fullName": "testframework.Tests.userlogin_locked",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "TX-0337L-FR"
+    },
+    {
+      "name": "package",
+      "value": "testframework"
+    },
+    {
+      "name": "testMethod",
+      "value": "userlogin_locked"
+    },
+    {
+      "name": "testClass",
+      "value": "Tests"
+    }
+  ],
+  "links": [],
+  "name": "userlogin_locked",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "System.Reflection.TargetInvocationException : Exception has been thrown by the target of an invocation.\r\n  ----> NUnit.Framework.AssertionException :   Expected string length 54 but was 51. Strings differ at index 4.\r\n  Expected: \"Epicccc sadface: Sorry, this user has been locked out.\"\r\n  But was:  \"Epic sadface: Sorry, this user has been locked out.\"\r\n  ---------------^\r\n\r\n\r\n  1)   Expected string length 54 but was 51. Strings differ at index 4.\r\n  Expected: \"Epicccc sadface: Sorry, this user has been locked out.\"\r\n  But was:  \"Epic sadface: Sorry, this user has been locked out.\"\r\n  ---------------^\r\n\r\n",
+    "trace": "   at System.Reflection.MethodBaseInvoker.InvokeWithManyArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)\r\n   at System.Reflection.MethodBase.Invoke(Object obj, Object[] parameters)\r\n   at NUnit.Allure.Core.Steps.AllureStepAspect.Around(String name, Object[] args, Func`2 target, MethodBase metadata, Type returnType)\r\n   at testframework.Tests.__a$_around_userlogin_locked_100663329_w_0(Object[])\r\n   at testframework.Tests.userlogin_locked()\r\n   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)\r\n   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)\r\n--AssertionException\r\n   at NUnit.Framework.Assert.ReportFailure(String message)\r\n   at NUnit.Framework.Assert.ReportFailure(ConstraintResult result, String message, Object[] args)\r\n   at NUnit.Framework.Assert.That[TActual](TActual actual, IResolveConstraint expression, String message, Object[] args)\r\n   at NUnit.Framework.Assert.AreEqual(Object expected, Object actual)\r\n   at testframework.BasePage.assertion_text(By by, String expected) in C:\\Users\\Farwa\\source\\repos\\testframework\\BasePage\\BasePage.cs:line 69\r\n   at testframework.Login.LoginSwagLab(String username, String password) in C:\\Users\\Farwa\\source\\repos\\testframework\\Loginpage\\Login.cs:line 25\r\n   at testframework.Tests.__a$_around_userlogin_locked_100663329_o() in C:\\Users\\Farwa\\source\\repos\\testframework\\ExecutionClass.cs:line 44\r\n   at testframework.Tests.__a$_around_userlogin_locked_100663329_u(Object[])\r\n   at NUnit.Allure.Core.Steps.AllureStepAspect.WrapSyncVoid(Func`2 target, Object[] args, MethodBase metadata, String stepName, List`1 stepParameters)\r\n   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)\r\n   at System.Reflection.MethodBaseInvoker.InvokeWithManyArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "userlogin_locked",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "  Expected string length 54 but was 51. Strings differ at index 4.\r\n  Expected: \"Epicccc sadface: Sorry, this user has been locked out.\"\r\n  But was:  \"Epic sadface: Sorry, this user has been locked out.\"\r\n  ---------------^\r\n",
+        "trace": "   at NUnit.Framework.Assert.ReportFailure(String message)\r\n   at NUnit.Framework.Assert.ReportFailure(ConstraintResult result, String message, Object[] args)\r\n   at NUnit.Framework.Assert.That[TActual](TActual actual, IResolveConstraint expression, String message, Object[] args)\r\n   at NUnit.Framework.Assert.AreEqual(Object expected, Object actual)\r\n   at testframework.BasePage.assertion_text(By by, String expected) in C:\\Users\\Farwa\\source\\repos\\testframework\\BasePage\\BasePage.cs:line 69\r\n   at testframework.Login.LoginSwagLab(String username, String password) in C:\\Users\\Farwa\\source\\repos\\testframework\\Loginpage\\Login.cs:line 25\r\n   at testframework.Tests.__a$_around_userlogin_locked_100663329_o() in C:\\Users\\Farwa\\source\\repos\\testframework\\ExecutionClass.cs:line 44\r\n   at testframework.Tests.__a$_around_userlogin_locked_100663329_u(Object[])\r\n   at NUnit.Allure.Core.Steps.AllureStepAspect.WrapSyncVoid(Func`2 target, Object[] args, MethodBase metadata, String stepName, List`1 stepParameters)"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "UsernameDetail",
+          "source": "246665712d444639abbe4e1241dcc0c4-attachment",
+          "type": "image/png"
+        },
+        {
+          "name": "Passworddetail",
+          "source": "041c5349d89b4ba883865d3644d2cf55-attachment",
+          "type": "image/png"
+        }
+      ],
+      "parameters": [],
+      "start": 1716471359653,
+      "stop": 1716471361739
+    }
+  ],
+  "attachments": [
+    {
+      "name": "Console Output",
+      "source": "d6f64a1824aa4c9d95bf4104641a6795-attachment.txt",
+      "type": "text/plain"
+    }
+  ],
+  "parameters": [],
+  "start": 1716471354855,
+  "stop": 1716471361939
+}

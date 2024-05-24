@@ -1,0 +1,26 @@
+{
+  "uuid": "tc-0-1000",
+  "name": "testframework.Tests",
+  "children": [],
+  "befores": [
+    {
+      "name": "OneTimeSetUp",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1716476156427,
+      "stop": 1716476156444
+    }
+  ],
+  "afters": [],
+  "links": [],
+  "start": 1716476156424,
+  "stop": 1716476170281
+}

@@ -1,0 +1,12 @@
+{
+  "uuid": "tc-0-1002",
+  "name": "testframework.Tests.userlogin_locked",
+  "children": [
+    "acb00a5e-4c1f-485a-bda5-4c99123a3792-tr-0-1002"
+  ],
+  "befores": [],
+  "afters": [],
+  "links": [],
+  "start": 1716472190893,
+  "stop": 1716472197222
+}

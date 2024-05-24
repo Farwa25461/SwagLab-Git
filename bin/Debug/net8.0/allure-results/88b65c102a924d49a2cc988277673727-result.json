@@ -1,0 +1,90 @@
+{
+  "uuid": "8393df9c-4db2-4b51-9388-35065e783c72-tr-0-1001",
+  "historyId": "testframework.Tests.userlogin_with_happypath",
+  "fullName": "testframework.Tests.userlogin_with_happypath",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "TX-0337L-FR"
+    },
+    {
+      "name": "package",
+      "value": "testframework"
+    },
+    {
+      "name": "testMethod",
+      "value": "userlogin_with_happypath"
+    },
+    {
+      "name": "testClass",
+      "value": "Tests"
+    }
+  ],
+  "links": [],
+  "name": "userlogin_with_happypath",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "userlogin_with_happypath"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "userlogin_with_happypath",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "UsernameDetail",
+          "source": "d3d7ac52944a4d79bddb80e91c7717e7-attachment",
+          "type": "image/png"
+        },
+        {
+          "name": "Passworddetail",
+          "source": "55f37e3506d5417ebca5bfd7170442ed-attachment",
+          "type": "image/png"
+        },
+        {
+          "name": "Firstname",
+          "source": "aef95ae5954e48eb937efee7459c1eaa-attachment",
+          "type": "image/png"
+        },
+        {
+          "name": "lastname",
+          "source": "0a5870fae48241b7bc918ca481f76870-attachment",
+          "type": "image/png"
+        },
+        {
+          "name": "passcodedetail",
+          "source": "23568809b8224b859983c43d6b0b9a3d-attachment",
+          "type": "image/png"
+        }
+      ],
+      "parameters": [],
+      "start": 1716476535010,
+      "stop": 1716476541007
+    }
+  ],
+  "attachments": [
+    {
+      "name": "Console Output",
+      "source": "775db3a6cf794a5683bb4fe25eb26cb0-attachment.txt",
+      "type": "text/plain"
+    }
+  ],
+  "parameters": [],
+  "start": 1716476531336,
+  "stop": 1716476541194
+}

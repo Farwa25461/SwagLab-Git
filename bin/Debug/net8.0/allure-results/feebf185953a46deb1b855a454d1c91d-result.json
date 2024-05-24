@@ -1,0 +1,70 @@
+{
+  "uuid": "a1de9d36-e48a-4284-9635-cb8bc68a7470-tr-0-1001",
+  "historyId": "testframework.Tests.userlogin",
+  "fullName": "testframework.Tests.userlogin",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "TX-0337L-FR"
+    },
+    {
+      "name": "package",
+      "value": "testframework"
+    },
+    {
+      "name": "testMethod",
+      "value": "userlogin"
+    },
+    {
+      "name": "testClass",
+      "value": "Tests"
+    }
+  ],
+  "links": [],
+  "name": "userlogin",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "userlogin"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "userlogin",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Login details",
+          "source": "156f50727c1d446c8a70159e41774b23-attachment",
+          "type": "image/png"
+        }
+      ],
+      "parameters": [],
+      "start": 1716465203804,
+      "stop": 1716465213323
+    }
+  ],
+  "attachments": [
+    {
+      "name": "Console Output",
+      "source": "f30dcae7b3f646dd8bf4b8a472e2a78e-attachment.txt",
+      "type": "text/plain"
+    }
+  ],
+  "parameters": [],
+  "start": 1716465200220,
+  "stop": 1716465213510
+}

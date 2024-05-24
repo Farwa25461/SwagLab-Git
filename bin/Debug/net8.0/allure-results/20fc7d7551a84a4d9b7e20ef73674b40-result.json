@@ -1,0 +1,90 @@
+{
+  "uuid": "110a7abd-00c4-4d9b-80ea-e39933dc241c-tr-0-1002",
+  "historyId": "testframework.Tests.userlogin2ndtime",
+  "fullName": "testframework.Tests.userlogin2ndtime",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "TX-0337L-FR"
+    },
+    {
+      "name": "package",
+      "value": "testframework"
+    },
+    {
+      "name": "testMethod",
+      "value": "userlogin2ndtime"
+    },
+    {
+      "name": "testClass",
+      "value": "Tests"
+    }
+  ],
+  "links": [],
+  "name": "userlogin2ndtime",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "userlogin2ndtime"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "userlogin2ndtime",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "UsernameDetail",
+          "source": "24593d18ec0a486c8448c07e413e22d8-attachment",
+          "type": "image/png"
+        },
+        {
+          "name": "Passworddetail",
+          "source": "e4a269e75dbd472faec36031785e7c09-attachment",
+          "type": "image/png"
+        },
+        {
+          "name": "Firstname",
+          "source": "15f2e50eddac465a9c267c8063db64da-attachment",
+          "type": "image/png"
+        },
+        {
+          "name": "lastname",
+          "source": "1df6a4c9f30044dcafc2700502a61751-attachment",
+          "type": "image/png"
+        },
+        {
+          "name": "passcodedetail",
+          "source": "30dd30f8f4cd490688c2dea212a454d3-attachment",
+          "type": "image/png"
+        }
+      ],
+      "parameters": [],
+      "start": 1716465977678,
+      "stop": 1716465990945
+    }
+  ],
+  "attachments": [
+    {
+      "name": "Console Output",
+      "source": "f912840bc83f4195afc620d88d1d35a3-attachment.txt",
+      "type": "text/plain"
+    }
+  ],
+  "parameters": [],
+  "start": 1716465974043,
+  "stop": 1716465991193
+}

@@ -1,0 +1,12 @@
+{
+  "uuid": "tc-0-1001",
+  "name": "testframework.Tests.userlogin",
+  "children": [
+    "770ebf15-5585-4782-a3c9-929e022b0ede-tr-0-1001"
+  ],
+  "befores": [],
+  "afters": [],
+  "links": [],
+  "start": 1716472285412,
+  "stop": 1716472295240
+}

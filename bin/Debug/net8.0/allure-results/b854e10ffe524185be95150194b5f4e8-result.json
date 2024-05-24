@@ -1,0 +1,78 @@
+{
+  "uuid": "19642254-ba79-4df8-9b7f-df134876340d-tr-0-1001",
+  "historyId": "testframework.Tests.userlogin_with_happypath",
+  "fullName": "testframework.Tests.userlogin_with_happypath",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "TX-0337L-FR"
+    },
+    {
+      "name": "package",
+      "value": "testframework"
+    },
+    {
+      "name": "testMethod",
+      "value": "userlogin_with_happypath"
+    },
+    {
+      "name": "testClass",
+      "value": "Tests"
+    }
+  ],
+  "links": [],
+  "name": "userlogin_with_happypath",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "System.Reflection.TargetInvocationException : Exception has been thrown by the target of an invocation.\r\n  ----> OpenQA.Selenium.NoSuchWindowException : no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=124.0.6367.210)\r\nTearDown : OpenQA.Selenium.NoSuchWindowException : no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=124.0.6367.210)",
+    "trace": "   at System.Reflection.MethodBaseInvoker.InvokeWithManyArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)\r\n   at System.Reflection.MethodBase.Invoke(Object obj, Object[] parameters)\r\n   at NUnit.Allure.Core.Steps.AllureStepAspect.Around(String name, Object[] args, Func`2 target, MethodBase metadata, Type returnType)\r\n   at testframework.Tests.__a$_around_userlogin_with_happypath_100663329_w_0(Object[])\r\n   at testframework.Tests.userlogin_with_happypath()\r\n   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)\r\n   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)\r\n--NoSuchWindowException\r\n   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)\r\n   at OpenQA.Selenium.By.<.ctor>b__11_0(ISearchContext context)\r\n   at OpenQA.Selenium.By.FindElement(ISearchContext context)\r\n   at OpenQA.Selenium.WebDriver.FindElement(By by)\r\n   at testframework.BasePage.click(By by) in C:\\Users\\Farwa\\source\\repos\\testframework\\BasePage\\BasePage.cs:line 38\r\n   at testframework.ProductPage.Selectproducts() in C:\\Users\\Farwa\\source\\repos\\testframework\\Product\\ProductPage.cs:line 19\r\n   at testframework.Tests.__a$_around_userlogin_with_happypath_100663329_o() in C:\\Users\\Farwa\\source\\repos\\testframework\\ExecutionClass.cs:line 35\r\n   at testframework.Tests.__a$_around_userlogin_with_happypath_100663329_u(Object[])\r\n   at NUnit.Allure.Core.Steps.AllureStepAspect.WrapSyncVoid(Func`2 target, Object[] args, MethodBase metadata, String stepName, List`1 stepParameters)\r\n   at InvokeStub_AllureStepAspect.WrapSyncVoid(Object, Span`1)\r\n   at System.Reflection.MethodBaseInvoker.InvokeWithManyArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)\r\n--TearDown\r\n   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.Close()\r\n   at testframework.Tests.Teardown() in C:\\Users\\Farwa\\source\\repos\\testframework\\ExecutionClass.cs:line 26\r\n   at InvokeStub_Tests.Teardown(Object, Object, IntPtr*)\r\n   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "userlogin_with_happypath",
+      "status": "broken",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=124.0.6367.210)",
+        "trace": "   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)\r\n   at OpenQA.Selenium.By.<.ctor>b__11_0(ISearchContext context)\r\n   at OpenQA.Selenium.By.FindElement(ISearchContext context)\r\n   at OpenQA.Selenium.WebDriver.FindElement(By by)\r\n   at testframework.BasePage.click(By by) in C:\\Users\\Farwa\\source\\repos\\testframework\\BasePage\\BasePage.cs:line 38\r\n   at testframework.ProductPage.Selectproducts() in C:\\Users\\Farwa\\source\\repos\\testframework\\Product\\ProductPage.cs:line 19\r\n   at testframework.Tests.__a$_around_userlogin_with_happypath_100663329_o() in C:\\Users\\Farwa\\source\\repos\\testframework\\ExecutionClass.cs:line 35\r\n   at testframework.Tests.__a$_around_userlogin_with_happypath_100663329_u(Object[])\r\n   at NUnit.Allure.Core.Steps.AllureStepAspect.WrapSyncVoid(Func`2 target, Object[] args, MethodBase metadata, String stepName, List`1 stepParameters)"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "UsernameDetail",
+          "source": "fd0318046c4e4dcea1ec14e382b36f85-attachment",
+          "type": "image/png"
+        },
+        {
+          "name": "Passworddetail",
+          "source": "06d7f9a8f58948768c0fa0696336dff3-attachment",
+          "type": "image/png"
+        }
+      ],
+      "parameters": [],
+      "start": 1716536655859,
+      "stop": 1716536658645
+    }
+  ],
+  "attachments": [
+    {
+      "name": "Console Output",
+      "source": "2164954101a74cd9bc5953219eeeac66-attachment.txt",
+      "type": "text/plain"
+    }
+  ],
+  "parameters": [],
+  "start": 1716536652914,
+  "stop": 1716536658686
+}

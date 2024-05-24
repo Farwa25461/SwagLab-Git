@@ -1,0 +1,73 @@
+{
+  "uuid": "b7245d02-67e3-4cf4-92f9-fda27d8c6100-tr-0-1002",
+  "historyId": "testframework.Tests.userlogin2ndtime",
+  "fullName": "testframework.Tests.userlogin2ndtime",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "TX-0337L-FR"
+    },
+    {
+      "name": "package",
+      "value": "testframework"
+    },
+    {
+      "name": "testMethod",
+      "value": "userlogin2ndtime"
+    },
+    {
+      "name": "testClass",
+      "value": "Tests"
+    }
+  ],
+  "links": [],
+  "name": "userlogin2ndtime",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "System.Reflection.TargetInvocationException : Exception has been thrown by the target of an invocation.\r\n  ----> OpenQA.Selenium.WebDriverException : An unknown exception was encountered sending an HTTP request to the remote WebDriver server for URL http://localhost:58148/session/b105f8ad78299eff8789188a02cdbaad/element/f.58088B7E00E40575AC4464C36928F747.d.20D65C07B8693342A0D53DA10EF8BF17.e.8/value. The exception message was: An error occurred while sending the request.\r\n  ----> System.Net.Http.HttpRequestException : An error occurred while sending the request.\r\n  ----> System.IO.IOException : Unable to read data from the transport connection: An existing connection was forcibly closed by the remote host..\r\n  ----> System.Net.Sockets.SocketException : An existing connection was forcibly closed by the remote host.\r\nTearDown : OpenQA.Selenium.WebDriverException : An unknown exception was encountered sending an HTTP request to the remote WebDriver server for URL http://localhost:58148/session/b105f8ad78299eff8789188a02cdbaad/window. The exception message was: No connection could be made because the target machine actively refused it. (localhost:58148)\r\n  ----> System.Net.Http.HttpRequestException : No connection could be made because the target machine actively refused it. (localhost:58148)\r\n  ----> System.Net.Sockets.SocketException : No connection could be made because the target machine actively refused it.",
+    "trace": "   at System.Reflection.MethodBaseInvoker.InvokeWithManyArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)\r\n   at System.Reflection.MethodBase.Invoke(Object obj, Object[] parameters)\r\n   at NUnit.Allure.Core.Steps.AllureStepAspect.Around(String name, Object[] args, Func`2 target, MethodBase metadata, Type returnType)\r\n   at testframework.Tests.__a$_around_userlogin2ndtime_100663328_w_0(Object[])\r\n   at testframework.Tests.userlogin2ndtime()\r\n   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)\r\n   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)\r\n--WebDriverException\r\n   at OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)\r\n   at OpenQA.Selenium.Remote.DriverServiceCommandExecutor.Execute(Command commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.InternalExecute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebElement.Execute(String commandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebElement.SendKeys(String text)\r\n   at testframework.BasePage.Write(By by, String text, String detailname) in C:\\Users\\Farwa\\source\\repos\\testframework\\BasePage\\BasePage.cs:line 32\r\n   at testframework.Login.LoginSwagLab(String username, String password) in C:\\Users\\Farwa\\source\\repos\\testframework\\Loginpage\\Login.cs:line 23\r\n   at testframework.Tests.__a$_around_userlogin2ndtime_100663328_o() in C:\\Users\\Farwa\\source\\repos\\testframework\\ExecutionClass.cs:line 45\r\n   at testframework.Tests.__a$_around_userlogin2ndtime_100663328_u(Object[])\r\n   at NUnit.Allure.Core.Steps.AllureStepAspect.WrapSyncVoid(Func`2 target, Object[] args, MethodBase metadata, String stepName, List`1 stepParameters)\r\n   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)\r\n   at System.Reflection.MethodBaseInvoker.InvokeWithManyArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)\r\n--HttpRequestException\r\n   at System.Net.Http.HttpConnection.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)\r\n   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)\r\n   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)\r\n   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)\r\n   at OpenQA.Selenium.Remote.HttpCommandExecutor.MakeHttpRequest(HttpRequestInfo requestInfo)\r\n   at OpenQA.Selenium.Remote.HttpCommandExecutor.<>c__DisplayClass33_0.<<Execute>b__0>d.MoveNext()\r\n--- End of stack trace from previous location ---\r\n   at OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)\r\n--IOException\r\n   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)\r\n   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource<System.Int32>.GetResult(Int16 token)\r\n   at System.Net.Http.HttpConnection.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)\r\n--SocketException\r\n\r\n--TearDown\r\n   at OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)\r\n   at OpenQA.Selenium.Remote.DriverServiceCommandExecutor.Execute(Command commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.Close()\r\n   at testframework.Tests.Teardown() in C:\\Users\\Farwa\\source\\repos\\testframework\\ExecutionClass.cs:line 25\r\n   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)\r\n   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)\r\n--HttpRequestException\r\n   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)\r\n   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)\r\n   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)\r\n   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(QueueItem queueItem)\r\n   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)\r\n   at System.Net.Http.HttpConnectionPool.HttpConnectionWaiter`1.WaitForConnectionWithTelemetryAsync(HttpRequestMessage request, HttpConnectionPool pool, Boolean async, CancellationToken requestCancellationToken)\r\n   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)\r\n   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)\r\n   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)\r\n   at OpenQA.Selenium.Remote.HttpCommandExecutor.MakeHttpRequest(HttpRequestInfo requestInfo)\r\n   at OpenQA.Selenium.Remote.HttpCommandExecutor.<>c__DisplayClass33_0.<<Execute>b__0>d.MoveNext()\r\n--- End of stack trace from previous location ---\r\n   at OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)\r\n--SocketException\r\n   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)\r\n   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)\r\n   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|285_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)\r\n   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "userlogin2ndtime",
+      "status": "broken",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "An unknown exception was encountered sending an HTTP request to the remote WebDriver server for URL http://localhost:58148/session/b105f8ad78299eff8789188a02cdbaad/element/f.58088B7E00E40575AC4464C36928F747.d.20D65C07B8693342A0D53DA10EF8BF17.e.8/value. The exception message was: An error occurred while sending the request.",
+        "trace": "   at OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)\r\n   at OpenQA.Selenium.Remote.DriverServiceCommandExecutor.Execute(Command commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.InternalExecute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebElement.Execute(String commandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebElement.SendKeys(String text)\r\n   at testframework.BasePage.Write(By by, String text, String detailname) in C:\\Users\\Farwa\\source\\repos\\testframework\\BasePage\\BasePage.cs:line 32\r\n   at testframework.Login.LoginSwagLab(String username, String password) in C:\\Users\\Farwa\\source\\repos\\testframework\\Loginpage\\Login.cs:line 23\r\n   at testframework.Tests.__a$_around_userlogin2ndtime_100663328_o() in C:\\Users\\Farwa\\source\\repos\\testframework\\ExecutionClass.cs:line 45\r\n   at testframework.Tests.__a$_around_userlogin2ndtime_100663328_u(Object[])\r\n   at NUnit.Allure.Core.Steps.AllureStepAspect.WrapSyncVoid(Func`2 target, Object[] args, MethodBase metadata, String stepName, List`1 stepParameters)"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "UsernameDetail",
+          "source": "f7e40f8abae9454b80fdec13064f7210-attachment",
+          "type": "image/png"
+        }
+      ],
+      "parameters": [],
+      "start": 1716465942716,
+      "stop": 1716465946427
+    }
+  ],
+  "attachments": [
+    {
+      "name": "Console Output",
+      "source": "12f823c4ccc2418485390b44a9b22c22-attachment.txt",
+      "type": "text/plain"
+    }
+  ],
+  "parameters": [],
+  "start": 1716465939670,
+  "stop": 1716465950542
+}

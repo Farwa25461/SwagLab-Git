@@ -1,0 +1,67 @@
+{
+  "uuid": "ee3c2e37-1d39-4075-9579-5b46b428663d-tr-0-1001",
+  "historyId": "testframework.Tests.userlogin_with_happypath",
+  "fullName": "testframework.Tests.userlogin_with_happypath",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "TX-0337L-FR"
+    },
+    {
+      "name": "package",
+      "value": "testframework"
+    },
+    {
+      "name": "testMethod",
+      "value": "userlogin_with_happypath"
+    },
+    {
+      "name": "testClass",
+      "value": "Tests"
+    }
+  ],
+  "links": [],
+  "name": "userlogin_with_happypath",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "System.Reflection.TargetInvocationException : Exception has been thrown by the target of an invocation.\r\n  ----> OpenQA.Selenium.NoSuchWindowException : no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=124.0.6367.210)\r\nTearDown : OpenQA.Selenium.NoSuchWindowException : no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=124.0.6367.210)",
+    "trace": "   at System.Reflection.MethodBaseInvoker.InvokeWithManyArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)\r\n   at System.Reflection.MethodBase.Invoke(Object obj, Object[] parameters)\r\n   at NUnit.Allure.Core.Steps.AllureStepAspect.Around(String name, Object[] args, Func`2 target, MethodBase metadata, Type returnType)\r\n   at testframework.Tests.__a$_around_userlogin_with_happypath_100663329_w_0(Object[])\r\n   at testframework.Tests.userlogin_with_happypath()\r\n   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)\r\n   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)\r\n--NoSuchWindowException\r\n   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.InternalExecute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.Window.Maximize()\r\n   at testframework.BasePage.Maximuize() in C:\\Users\\Farwa\\source\\repos\\testframework\\BasePage\\BasePage.cs:line 26\r\n   at testframework.Login.LoginSwagLab(String username, String password) in C:\\Users\\Farwa\\source\\repos\\testframework\\Loginpage\\Login.cs:line 20\r\n   at testframework.Tests.__a$_around_userlogin_with_happypath_100663329_o() in C:\\Users\\Farwa\\source\\repos\\testframework\\ExecutionClass.cs:line 33\r\n   at testframework.Tests.__a$_around_userlogin_with_happypath_100663329_u(Object[])\r\n   at NUnit.Allure.Core.Steps.AllureStepAspect.WrapSyncVoid(Func`2 target, Object[] args, MethodBase metadata, String stepName, List`1 stepParameters)\r\n   at InvokeStub_AllureStepAspect.WrapSyncVoid(Object, Span`1)\r\n   at System.Reflection.MethodBaseInvoker.InvokeWithManyArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)\r\n--TearDown\r\n   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.Close()\r\n   at testframework.Tests.Teardown() in C:\\Users\\Farwa\\source\\repos\\testframework\\ExecutionClass.cs:line 25\r\n   at InvokeStub_Tests.Teardown(Object, Object, IntPtr*)\r\n   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "userlogin_with_happypath",
+      "status": "broken",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=124.0.6367.210)",
+        "trace": "   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.InternalExecute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.Window.Maximize()\r\n   at testframework.BasePage.Maximuize() in C:\\Users\\Farwa\\source\\repos\\testframework\\BasePage\\BasePage.cs:line 26\r\n   at testframework.Login.LoginSwagLab(String username, String password) in C:\\Users\\Farwa\\source\\repos\\testframework\\Loginpage\\Login.cs:line 20\r\n   at testframework.Tests.__a$_around_userlogin_with_happypath_100663329_o() in C:\\Users\\Farwa\\source\\repos\\testframework\\ExecutionClass.cs:line 33\r\n   at testframework.Tests.__a$_around_userlogin_with_happypath_100663329_u(Object[])\r\n   at NUnit.Allure.Core.Steps.AllureStepAspect.WrapSyncVoid(Func`2 target, Object[] args, MethodBase metadata, String stepName, List`1 stepParameters)"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1716476450363,
+      "stop": 1716476450367
+    }
+  ],
+  "attachments": [
+    {
+      "name": "Console Output",
+      "source": "e20216670e2a42a39771a8f154868c2d-attachment.txt",
+      "type": "text/plain"
+    }
+  ],
+  "parameters": [],
+  "start": 1716476446586,
+  "stop": 1716476450412
+}
